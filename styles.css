@@ -1,0 +1,78 @@
+*{
+    background-color: #71717A;
+}
+
+#title{
+    text-align: center;
+    margin-top: 50px;
+    color: #93C5FD;
+}
+#description{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #93C5FD;
+}
+
+label,input {
+    display: block;
+      margin: 0.5rem 0;
+  }
+
+form{
+    display: block;
+    width: 38vw;
+    margin: 0 0 0 32vw;
+}
+
+label{
+    background-color: #93C5FD;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name-label, #email-label, #number-label{
+  margin: 15px 2px 0 10px;
+	width: 100%;
+  min-height: 2em;
+}
+#name, #email, #number{
+    width: 90%;
+    background-color: #FFF7ED;
+}
+#dropdown{
+    margin: 10px 0 0 10px;
+      width: 90%;
+    min-height: 2em;
+    background-color: #FFF7ED;
+  }
+.inline{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#improve{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#suggestion{
+    display: block;
+    width: 90%;
+    height: 12vh;
+    margin-left: 5px;
+    background-color: #FFF7ED;
+}
+
+fieldset{
+    text-align: left;
+    background-color: #93C5FD;
+    opacity: 80%;
+}
+#submit{
+    width: 91%;
+    height: 4vh;
+    margin-left: 5px;
+    background-color: #71717A;
+
+}
